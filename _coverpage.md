@@ -10,4 +10,4 @@
 Отрывки из него приводились Бродом в его книге «Франц Кафка. Биография»
 
 [TXT](https://github.com/develoopeer/kafka-letter/book/assets/book.txt)
-[Get Started](pages/1.md)
+[Get Started](pages/1)
