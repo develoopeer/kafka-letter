@@ -14,9 +14,9 @@
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/3.0.0/hint.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/3.0.0/hint.min.css"
+    />
   </head>
   <body>
     <div id="app"></div>
@@ -40,7 +40,7 @@
           margin: "10px",
           float: "right",
           fontsize: "0.9em",
-          color: "rgb(90,90,90)",
+          color: "#abb2bf",
           localization: {
             words: "",
             minute: "",
@@ -51,17 +51,33 @@
           placeholder: "Жмай",
           noData: "Нету",
           hideOtherSidebarContent: true,
-      },
+        },
       };
     </script>
     <style>
-      [aria-label]:after{
+      .sidebar ul li a {
+        color: #abb2bf;
+      }
+      body,
+      .sidebar {
+        background: #282c34;
+        color: #abb2bf;
+      }
+      input {
+        background: #282c34;
+      }
+      .input-wrap {
+        text-align: center;
+      }
+      .sidebar-toggle {
+        background-color: transparent;
+      }
+      [aria-label]:after {
         font-size: 10pt;
         font-weight: lighter;
       }
-      span{
-        /* color: #C678DD; */
-        color: #E06C75;
+      span {
+        color: #e06c75;
         font-weight: bold;
         cursor: pointer;
       }
