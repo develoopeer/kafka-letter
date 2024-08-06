@@ -9,5 +9,7 @@
 Письмо это часто упоминается Кафкой в письмах к Милене Есенской, <br/>
 Отрывки из него приводились Бродом в его книге «Франц Кафка. Биография»
 
-[TXT](https://github.com/develoopeer/kafka-letter/book/assets/book.txt)
+[TXT](https://github.com/develoopeer/kafka-letter/blob/master/assets/book.txt)
 [Get Started](pages/1)
+
+![color](#282c34)
